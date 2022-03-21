@@ -1,10 +1,9 @@
 export = SecureLS;
 
 import * as LZString from 'lz-string';
-import {CipherHelper, Encoder} from 'crypto-js';
 
 declare class SecureLS {
-    constructor(config?: { isCompression?: boolean, encodingType?: string, encryptionSecret?: string , encryptionNamespace?: string });
+    constructor(config?: { isCompression?: boolean, encodingType?: string, encryptionSecret?: string, encryptionNamespace?: string });
     getEncryptionSecret(): string;
     get(key: string, isAllKeysData?: boolean): any;
     getDataFromLocalStorage(key: string): string | null;
@@ -22,17 +21,17 @@ declare class SecureLS {
     _name: 'secure-ls';
     Base64: SecureLS.Base64;
     LZString: LZString.LZStringStatic;
-    AES: CipherHelper;
-    DES: CipherHelper;
-    RABBIT: CipherHelper;
-    RC4: CipherHelper;
+    AES: any;
+    DES: any;
+    RABBIT: any;
+    RC4: any;
     enc: {
-        Latin1: Encoder;
-        _Utf8: Encoder;
+        Latin1: any;
+        _Utf8: any;
     };
 }
 
-declare namespace SecureLS{
+declare namespace SecureLS {
     interface Base64 {
         _keyStr: string;
         encode(e: string): string;
