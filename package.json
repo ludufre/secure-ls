@@ -36,7 +36,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://gitlab.com/ludufre/secure-ls.git"
+    "url": "https://github.com/ludufre/secure-ls.git"
   },
   "keywords": [
     "secure-ls",
@@ -51,9 +51,9 @@
   "author": "Varun Malhotra",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/ludufre/secure-ls/issues"
+    "url": "https://github.com/ludufre/secure-ls/issues"
   },
-  "homepage": "https://gitlab.com/ludufre/secure-ls",
+  "homepage": "https://github.com/ludufre/secure-ls",
   "dependencies": {
     "crypto-js": "^4.1.1",
     "lz-string": "^1.4.4"
