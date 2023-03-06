@@ -56,7 +56,7 @@
   "homepage": "https://github.com/ludufre/secure-ls",
   "dependencies": {
     "crypto-js": "^4.1.1",
-    "lz-string": "^1.4.4"
+    "lz-string": "^1.5.0"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
