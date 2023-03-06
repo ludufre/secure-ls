@@ -20,7 +20,7 @@ declare class SecureLS {
 
     _name: 'secure-ls';
     Base64: SecureLS.Base64;
-    LZString: LZString.LZStringStatic;
+    LZString: typeof LZString;
     AES: any;
     DES: any;
     RABBIT: any;
